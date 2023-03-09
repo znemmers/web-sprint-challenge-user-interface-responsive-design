@@ -94,8 +94,13 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(225, 239, 230);
 }
-
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 /* spacer */
 .spacer {
     width: 100%;
@@ -118,6 +123,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
 }
 
 /* footer section */
