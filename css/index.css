@@ -109,24 +109,8 @@ header {
     text-align: center;
 }
 
-nav {
-    padding: 2.5vh;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 a {
     color: rgb(225, 239, 230);;
-}
-
-.icon{
-    display: flex;
-    align-content: space-between;
-    color: rgb(225, 239, 230);
-}
-
-.foot{
-    color: black;
 }
 
 /* spacers */
@@ -150,13 +134,9 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    color: rgb(225, 239, 230);;
-}
-
-.pics{
-    display: flex;
-    row-gap: 4%;
-    column-gap: 2%;
+    color: rgb(225, 239, 230);
+    row-gap: 10%;
+    column-gap: 10%;
 }
 
 /* about us section */
@@ -244,6 +224,11 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+}
+
+footer nav{
+    color: rgb(0, 4, 17);
+    text-align: center;
 }
 
 .copy{

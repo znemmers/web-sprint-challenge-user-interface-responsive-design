@@ -113,7 +113,7 @@ describe('menu.html', () => {
 
             if(menuItems.length >= 3 && menuItems.length <= 5) {
                 expect(menuItems.length >= 3 && menuItems.length <= 5).toBe(true);
-            } else fail(`Inappropriate number of menu items.`);
+            } else fail(`Inappropriate number of menu items. number of menu items${menuItems.length}`);
         });
     });
 
